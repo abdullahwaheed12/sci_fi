@@ -43,7 +43,8 @@ class _DashBoradState extends State<DashBorad> {
       body: SafeArea(
         child: Center(
           child: Padding(
-            padding: const EdgeInsets.only(bottom: 16.0,top:10.0),
+            padding: const EdgeInsets.only(
+                bottom: 10.0, top: 10.0, left: 10, right: 10),
             child: CustomPaint(
               size: Size(
                   size.width,
