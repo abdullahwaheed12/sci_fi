@@ -8,112 +8,301 @@ class DashBoardCustomPaint extends CustomPainter {
       ..color = Colors.blue
       ..style = PaintingStyle.stroke
       ..maskFilter = const MaskFilter.blur(BlurStyle.solid, 5)
-      ..strokeWidth = 5;
-    var paintCircle = Paint()
-      ..color = Colors.blue
-      ..style = PaintingStyle.fill
-      ..maskFilter = const MaskFilter.blur(BlurStyle.solid, 10)
-      ..strokeWidth = 5;
+      ..strokeWidth = 1;
     Path path_0 = Path();
-    path_0.moveTo(size.width * 0.02535421, size.height * 0.1623072);
-    path_0.lineTo(size.width * 0.02616772, size.height * 0.5468322);
-    path_0.lineTo(size.width * 0.04935259, size.height * 0.5862636);
-    path_0.lineTo(size.width * 0.04853908, size.height * 0.8674916);
-    path_0.lineTo(size.width * 0.1040155, size.height * 0.9593155);
-    path_0.lineTo(size.width * 0.4554945, size.height * 0.9593155);
-    path_0.lineTo(size.width * 0.4819786, size.height * 0.9133840);
-    path_0.lineTo(size.width * 0.7254197, size.height * 0.9119743);
-    path_0.lineTo(size.width * 0.7519264, size.height * 0.9593155);
-    path_0.lineTo(size.width * 0.9175197, size.height * 0.9593155);
-    path_0.lineTo(size.width * 0.9522970, size.height * 0.8997572);
-    path_0.lineTo(size.width * 0.9538336, size.height * 0.5238468);
-    path_0.lineTo(size.width * 0.9286828, size.height * 0.4818702);
-    path_0.lineTo(size.width * 0.9274399, size.height * 0.2045188);
-    path_0.lineTo(size.width * 0.8386550, size.height * 0.05470280);
-    path_0.lineTo(size.width * 0.5225634, size.height * 0.05470280);
-    path_0.lineTo(size.width * 0.4895939, size.height * 0.1095622);
-    path_0.lineTo(size.width * 0.3620320, size.height * 0.1106586);
-    path_0.lineTo(size.width * 0.3475923, size.height * 0.08829979);
-    path_0.lineTo(size.width * 0.07140759, size.height * 0.08696844);
-    path_0.lineTo(size.width * 0.02535421, size.height * 0.1623072);
+    path_0.moveTo(size.width * 0.005414994, size.height * 0.06098938);
+    path_0.lineTo(size.width * 0.005414994, size.height * 0.2222377);
+    path_0.lineTo(size.width * 0.01380908, size.height * 0.2352870);
+    path_0.lineTo(size.width * 0.01380908, size.height * 0.7686574);
+    path_0.lineTo(size.width * 0.005414994, size.height * 0.7863286);
+    path_0.lineTo(size.width * 0.005414994, size.height * 0.9437369);
+    path_0.lineTo(size.width * 0.03270215, size.height * 0.9991312);
+    path_0.lineTo(size.width * 0.3577715, size.height * 0.9991312);
+    path_0.lineTo(size.width * 0.3664797, size.height * 0.9827457);
+    path_0.lineTo(size.width * 0.6335373, size.height * 0.9827457);
+    path_0.lineTo(size.width * 0.6396822, size.height * 0.9991312);
+    path_0.lineTo(size.width * 0.9672300, size.height * 0.9991312);
+    path_0.lineTo(size.width * 0.9944068, size.height * 0.9447794);
+    path_0.lineTo(size.width * 0.9944068, size.height * 0.7859290);
+    path_0.lineTo(size.width * 0.9861994, size.height * 0.7688137);
+    path_0.lineTo(size.width * 0.9861994, size.height * 0.2340880);
+    path_0.lineTo(size.width * 0.9944068, size.height * 0.2231933);
+    path_0.lineTo(size.width * 0.9944068, size.height * 0.05701030);
+    path_0.lineTo(size.width * 0.9669753, size.height * 0.0008687946);
+    path_0.lineTo(size.width * 0.6395295, size.height * 0.0008687946);
+    path_0.lineTo(size.width * 0.6346237, size.height * 0.01737589);
+    path_0.lineTo(size.width * 0.3660892, size.height * 0.01737589);
+    path_0.lineTo(size.width * 0.3580007, size.height * 0.0008687946);
+    path_0.lineTo(size.width * 0.03321140, size.height * 0.0008687946);
+    path_0.lineTo(size.width * 0.005414994, size.height * 0.05589825);
+    path_0.lineTo(size.width * 0.005414994, size.height * 0.06098938);
     path_0.close();
 
     canvas.drawPath(path_0, paint);
 
     Path path_1 = Path();
-    path_1.moveTo(size.width * 0.1748130, size.height * 0.04068447);
-    path_1.lineTo(size.width * 0.06334034, size.height * 0.04068447);
-    path_1.lineTo(size.width * 0.001536619, size.height * 0.1450779);
-    path_1.lineTo(size.width * 0.001129867, size.height * 0.5629650);
-    path_1.lineTo(size.width * 0.02804330, size.height * 0.6078001);
-    path_1.lineTo(size.width * 0.02824667, size.height * 0.8750098);
-    path_1.lineTo(size.width * 0.09572232, size.height * 0.9862166);
+    path_1.moveTo(size.width * 0.02154964, size.height * 0.2451043);
+    path_1.lineTo(size.width * 0.03519746, size.height * 0.2636097);
+    path_1.lineTo(size.width * 0.03519746, size.height * 0.4425640);
+    path_1.lineTo(size.width * 0.02592068, size.height * 0.4619034);
+    path_1.lineTo(size.width * 0.02592068, size.height * 0.5425970);
+    path_1.lineTo(size.width * 0.03519746, size.height * 0.5637261);
+    path_1.lineTo(size.width * 0.03519746, size.height * 0.7327588);
+    path_1.lineTo(size.width * 0.02154964, size.height * 0.7568765);
 
     canvas.drawPath(path_1, paint);
 
     Path path_2 = Path();
-    path_2.moveTo(size.width * 0.4107744, size.height * 0.9862166);
-    path_2.lineTo(size.width * 0.4604660, size.height * 0.9862166);
-    path_2.lineTo(size.width * 0.4895261, size.height * 0.9370742);
-    path_2.lineTo(size.width * 0.7138273, size.height * 0.9370742);
-    path_2.lineTo(size.width * 0.7436332, size.height * 0.9862166);
-    path_2.lineTo(size.width * 0.8094592, size.height * 0.9862166);
+    path_2.moveTo(size.width * 0.01346959, size.height * 0.2260604);
+    path_2.lineTo(size.width * 0.02143081, size.height * 0.2078678);
+    path_2.lineTo(size.width * 0.02143081, size.height * 0.1042554);
+    path_2.lineTo(size.width * 0.04918478, size.height * 0.04981668);
+    path_2.lineTo(size.width * 0.04918478, size.height * 0.01054717);
+    path_2.lineTo(size.width * 0.4946826, size.height * 0.01054717);
+    path_2.lineTo(size.width * 0.4946826, size.height * 0.02467377);
+    path_2.lineTo(size.width * 0.03872824, size.height * 0.02467377);
+    path_2.lineTo(size.width * 0.01344412, size.height * 0.07786138);
+    path_2.lineTo(size.width * 0.01344412, size.height * 0.2261299);
+    path_2.lineTo(size.width * 0.008894849, size.height * 0.2354433);
+    path_2.lineTo(size.width * 0.008894849, size.height * 0.4825459);
+    path_2.lineTo(size.width * 0.0006026090, size.height * 0.4995395);
+    path_2.lineTo(size.width * 0.009081573, size.height * 0.5168981);
+    path_2.lineTo(size.width * 0.009081573, size.height * 0.7685705);
+    path_2.lineTo(size.width * 0.02102342, size.height * 0.7962677);
+    path_2.lineTo(size.width * 0.02102342, size.height * 0.8958315);
+    path_2.lineTo(size.width * 0.04942243, size.height * 0.9519383);
+    path_2.lineTo(size.width * 0.04942243, size.height * 0.9896613);
+    path_2.lineTo(size.width * 0.3622274, size.height * 0.9896613);
+    path_2.lineTo(size.width * 0.4946826, size.height * 0.9896613);
+    path_2.lineTo(size.width * 0.4946826, size.height * 0.9763688);
+    path_2.lineTo(size.width * 0.03838025, size.height * 0.9763688);
+    path_2.lineTo(size.width * 0.01326589, size.height * 0.9217737);
+    path_2.lineTo(size.width * 0.01326589, size.height * 0.8030443);
 
     canvas.drawPath(path_2, paint);
 
-    Path path_3 = Path();
-    path_3.moveTo(size.width * 0.9920231, size.height * 0.5905709);
-    path_3.lineTo(size.width * 0.9920231, size.height * 0.5067742);
-    path_3.lineTo(size.width * 0.9538336, size.height * 0.4420863);
-    path_3.lineTo(size.width * 0.9538336, size.height * 0.2074947);
-    path_3.lineTo(size.width * 0.8417508, size.height * 0.01378338);
-    path_3.lineTo(size.width * 0.7759248, size.height * 0.01378338);
-
-    canvas.drawPath(path_3, paint);
+    canvas.drawRect(
+        Rect.fromLTWH(size.width * 0.01150050, size.height * 0.7969801,
+            size.width * 0.003539267, size.height * 0.006741846),
+        paint);
 
     Path path_4 = Path();
-    path_4.moveTo(size.width * 0.6393013, size.height * 0.03101261);
-    path_4.lineTo(size.width * 0.5188349, size.height * 0.03101261);
-    path_4.lineTo(size.width * 0.4778433, size.height * 0.09558305);
-    path_4.lineTo(size.width * 0.3698054, size.height * 0.09558305);
-    path_4.lineTo(size.width * 0.3461912, size.height * 0.06327825);
-    path_4.lineTo(size.width * 0.2940366, size.height * 0.06327825);
+    path_4.moveTo(size.width * 0.9876423, size.height * 0.8062935);
+    path_4.lineTo(size.width * 0.9876423, size.height * 0.9202968);
+    path_4.lineTo(size.width * 0.9616961, size.height * 0.9768901);
+    path_4.lineTo(size.width * 0.5061067, size.height * 0.9768901);
+    path_4.lineTo(size.width * 0.5061067, size.height * 0.9899046);
+    path_4.lineTo(size.width * 0.9510614, size.height * 0.9899046);
+    path_4.lineTo(size.width * 0.9510614, size.height * 0.9524943);
+    path_4.lineTo(size.width * 0.9790530, size.height * 0.8981078);
+    path_4.lineTo(size.width * 0.9790530, size.height * 0.7981790);
+    path_4.lineTo(size.width * 0.9918096, size.height * 0.7696652);
+    path_4.lineTo(size.width * 0.9918096, size.height * 0.5155601);
+    path_4.lineTo(size.width * 0.9994059, size.height * 0.5009991);
+    path_4.lineTo(size.width * 0.9918096, size.height * 0.4846136);
+    path_4.lineTo(size.width * 0.9918096, size.height * 0.2354086);
+    path_4.lineTo(size.width * 0.9792142, size.height * 0.2091189);
+    path_4.lineTo(size.width * 0.9792142, size.height * 0.1038905);
+    path_4.lineTo(size.width * 0.9512566, size.height * 0.04945179);
+    path_4.lineTo(size.width * 0.9512566, size.height * 0.01054717);
+    path_4.lineTo(size.width * 0.5063274, size.height * 0.01054717);
+    path_4.lineTo(size.width * 0.5063274, size.height * 0.02474327);
+    path_4.lineTo(size.width * 0.9620950, size.height * 0.02474327);
+    path_4.lineTo(size.width * 0.9874640, size.height * 0.07798301);
+    path_4.lineTo(size.width * 0.9874640, size.height * 0.1990409);
 
     canvas.drawPath(path_4, paint);
 
     Path path_5 = Path();
-    path_5.moveTo(size.width * 0.8479651, size.height * 0.9862166);
-    path_5.lineTo(size.width * 0.9266264, size.height * 0.9862166);
-    path_5.lineTo(size.width * 0.9700811, size.height * 0.9148328);
-    path_5.lineTo(size.width * 0.9721601, size.height * 0.5130785);
-    path_5.lineTo(size.width * 0.9452466, size.height * 0.4671862);
-    path_5.lineTo(size.width * 0.9440038, size.height * 0.3524160);
+    path_5.moveTo(size.width * 0.9773215, size.height * 0.7347917);
+    path_5.lineTo(size.width * 0.9646667, size.height * 0.7146183);
+    path_5.lineTo(size.width * 0.9646667, size.height * 0.5556115);
+    path_5.lineTo(size.width * 0.9730608, size.height * 0.5365154);
+    path_5.lineTo(size.width * 0.9730608, size.height * 0.4585151);
+    path_5.lineTo(size.width * 0.9645140, size.height * 0.4405310);
+    path_5.lineTo(size.width * 0.9645140, size.height * 0.2725235);
+    path_5.lineTo(size.width * 0.9773215, size.height * 0.2556515);
 
     canvas.drawPath(path_5, paint);
 
-    canvas.drawCircle(Offset(size.width * 0.7759248, size.height * 0.01378338),
-        size.width * 0.006824396, paintCircle);
+    canvas.drawRect(
+        Rect.fromLTWH(size.width * 0.9859108, size.height * 0.8001251,
+            size.width * 0.003539267, size.height * 0.006741846),
+        paint);
 
-    canvas.drawCircle(Offset(size.width * 0.6393013, size.height * 0.03101261),
-        size.width * 0.006824396, paintCircle);
+    canvas.drawRect(
+        Rect.fromLTWH(size.width * 0.9856307, size.height * 0.1990235,
+            size.width * 0.003539267, size.height * 0.006741846),
+        paint);
+  }
 
-    canvas.drawCircle(Offset(size.width * 0.9920231, size.height * 0.5905709),
-        size.width * 0.006824396, paintCircle);
+  @override
+  bool shouldRepaint(covariant CustomPainter oldDelegate) {
+    return true;
+  }
+}
 
-    canvas.drawCircle(Offset(size.width * 0.8094592, size.height * 0.9862166),
-        size.width * 0.006824396, paintCircle);
+//Copy this CustomPainter code to the Bottom of the File
+class RPSCustomPainter extends CustomPainter {
+  @override
+  void paint(Canvas canvas, Size size) {
+    Path path_0 = Path();
+    path_0.moveTo(size.width * 0.005414994, size.height * 0.06098938);
+    path_0.lineTo(size.width * 0.005414994, size.height * 0.2222377);
+    path_0.lineTo(size.width * 0.01380908, size.height * 0.2352870);
+    path_0.lineTo(size.width * 0.01380908, size.height * 0.7686574);
+    path_0.lineTo(size.width * 0.005414994, size.height * 0.7863286);
+    path_0.lineTo(size.width * 0.005414994, size.height * 0.9437369);
+    path_0.lineTo(size.width * 0.03270215, size.height * 0.9991312);
+    path_0.lineTo(size.width * 0.3577715, size.height * 0.9991312);
+    path_0.lineTo(size.width * 0.3664797, size.height * 0.9827457);
+    path_0.lineTo(size.width * 0.6335373, size.height * 0.9827457);
+    path_0.lineTo(size.width * 0.6396822, size.height * 0.9991312);
+    path_0.lineTo(size.width * 0.9672300, size.height * 0.9991312);
+    path_0.lineTo(size.width * 0.9944068, size.height * 0.9447794);
+    path_0.lineTo(size.width * 0.9944068, size.height * 0.7859290);
+    path_0.lineTo(size.width * 0.9861994, size.height * 0.7688137);
+    path_0.lineTo(size.width * 0.9861994, size.height * 0.2340880);
+    path_0.lineTo(size.width * 0.9944068, size.height * 0.2231933);
+    path_0.lineTo(size.width * 0.9944068, size.height * 0.05701030);
+    path_0.lineTo(size.width * 0.9669753, size.height * 0.0008687946);
+    path_0.lineTo(size.width * 0.6395295, size.height * 0.0008687946);
+    path_0.lineTo(size.width * 0.6346237, size.height * 0.01737589);
+    path_0.lineTo(size.width * 0.3660892, size.height * 0.01737589);
+    path_0.lineTo(size.width * 0.3580007, size.height * 0.0008687946);
+    path_0.lineTo(size.width * 0.03321140, size.height * 0.0008687946);
+    path_0.lineTo(size.width * 0.005414994, size.height * 0.05589825);
+    path_0.lineTo(size.width * 0.005414994, size.height * 0.06098938);
+    path_0.close();
 
-    canvas.drawCircle(Offset(size.width * 0.4107744, size.height * 0.9862166),
-        size.width * 0.006824396, paintCircle);
+    Paint paint_0_stroke = Paint()
+      ..style = PaintingStyle.stroke
+      ..strokeWidth = 2;
+    paint_0_stroke.color = Color(0xffe7620c).withOpacity(1.0);
+    canvas.drawPath(path_0, paint_0_stroke);
 
-    canvas.drawCircle(Offset(size.width * 0.09542856, size.height * 0.9862166),
-        size.width * 0.006824396, paintCircle);
+    Path path_1 = Path();
+    path_1.moveTo(size.width * 0.02154964, size.height * 0.2451043);
+    path_1.lineTo(size.width * 0.03519746, size.height * 0.2636097);
+    path_1.lineTo(size.width * 0.03519746, size.height * 0.4425640);
+    path_1.lineTo(size.width * 0.02592068, size.height * 0.4619034);
+    path_1.lineTo(size.width * 0.02592068, size.height * 0.5425970);
+    path_1.lineTo(size.width * 0.03519746, size.height * 0.5637261);
+    path_1.lineTo(size.width * 0.03519746, size.height * 0.7327588);
+    path_1.lineTo(size.width * 0.02154964, size.height * 0.7568765);
 
-    canvas.drawCircle(Offset(size.width * 0.1748130, size.height * 0.04068447),
-        size.width * 0.006824396, paintCircle);
+    Paint paint_1_stroke = Paint()
+      ..style = PaintingStyle.stroke
+      ..strokeWidth = 2;
+    paint_1_stroke.color = Color(0xffe7620c).withOpacity(1.0);
+    canvas.drawPath(path_1, paint_1_stroke);
 
-    canvas.drawCircle(Offset(size.width * 0.2940366, size.height * 0.06327825),
-        size.width * 0.006824396, paintCircle);
+    Path path_2 = Path();
+    path_2.moveTo(size.width * 0.01346959, size.height * 0.2260604);
+    path_2.lineTo(size.width * 0.02143081, size.height * 0.2078678);
+    path_2.lineTo(size.width * 0.02143081, size.height * 0.1042554);
+    path_2.lineTo(size.width * 0.04918478, size.height * 0.04981668);
+    path_2.lineTo(size.width * 0.04918478, size.height * 0.01054717);
+    path_2.lineTo(size.width * 0.4946826, size.height * 0.01054717);
+    path_2.lineTo(size.width * 0.4946826, size.height * 0.02467377);
+    path_2.lineTo(size.width * 0.03872824, size.height * 0.02467377);
+    path_2.lineTo(size.width * 0.01344412, size.height * 0.07786138);
+    path_2.lineTo(size.width * 0.01344412, size.height * 0.2261299);
+    path_2.lineTo(size.width * 0.008894849, size.height * 0.2354433);
+    path_2.lineTo(size.width * 0.008894849, size.height * 0.4825459);
+    path_2.lineTo(size.width * 0.0006026090, size.height * 0.4995395);
+    path_2.lineTo(size.width * 0.009081573, size.height * 0.5168981);
+    path_2.lineTo(size.width * 0.009081573, size.height * 0.7685705);
+    path_2.lineTo(size.width * 0.02102342, size.height * 0.7962677);
+    path_2.lineTo(size.width * 0.02102342, size.height * 0.8958315);
+    path_2.lineTo(size.width * 0.04942243, size.height * 0.9519383);
+    path_2.lineTo(size.width * 0.04942243, size.height * 0.9896613);
+    path_2.lineTo(size.width * 0.3622274, size.height * 0.9896613);
+    path_2.lineTo(size.width * 0.4946826, size.height * 0.9896613);
+    path_2.lineTo(size.width * 0.4946826, size.height * 0.9763688);
+    path_2.lineTo(size.width * 0.03838025, size.height * 0.9763688);
+    path_2.lineTo(size.width * 0.01326589, size.height * 0.9217737);
+    path_2.lineTo(size.width * 0.01326589, size.height * 0.8030443);
+
+    Paint paint_2_stroke = Paint()
+      ..style = PaintingStyle.stroke
+      ..strokeWidth = 2;
+    paint_2_stroke.color = Color(0xffe7620c).withOpacity(1.0);
+    canvas.drawPath(path_2, paint_2_stroke);
+
+    Paint paint_3_stroke = Paint()
+      ..style = PaintingStyle.stroke
+      ..strokeWidth = 2;
+    paint_3_stroke.color = Color(0xffe7620c).withOpacity(1.0);
+    canvas.drawRect(
+        Rect.fromLTWH(size.width * 0.01150050, size.height * 0.7969801,
+            size.width * 0.003539267, size.height * 0.006741846),
+        paint_3_stroke);
+
+    Path path_4 = Path();
+    path_4.moveTo(size.width * 0.9876423, size.height * 0.8062935);
+    path_4.lineTo(size.width * 0.9876423, size.height * 0.9202968);
+    path_4.lineTo(size.width * 0.9616961, size.height * 0.9768901);
+    path_4.lineTo(size.width * 0.5061067, size.height * 0.9768901);
+    path_4.lineTo(size.width * 0.5061067, size.height * 0.9899046);
+    path_4.lineTo(size.width * 0.9510614, size.height * 0.9899046);
+    path_4.lineTo(size.width * 0.9510614, size.height * 0.9524943);
+    path_4.lineTo(size.width * 0.9790530, size.height * 0.8981078);
+    path_4.lineTo(size.width * 0.9790530, size.height * 0.7981790);
+    path_4.lineTo(size.width * 0.9918096, size.height * 0.7696652);
+    path_4.lineTo(size.width * 0.9918096, size.height * 0.5155601);
+    path_4.lineTo(size.width * 0.9994059, size.height * 0.5009991);
+    path_4.lineTo(size.width * 0.9918096, size.height * 0.4846136);
+    path_4.lineTo(size.width * 0.9918096, size.height * 0.2354086);
+    path_4.lineTo(size.width * 0.9792142, size.height * 0.2091189);
+    path_4.lineTo(size.width * 0.9792142, size.height * 0.1038905);
+    path_4.lineTo(size.width * 0.9512566, size.height * 0.04945179);
+    path_4.lineTo(size.width * 0.9512566, size.height * 0.01054717);
+    path_4.lineTo(size.width * 0.5063274, size.height * 0.01054717);
+    path_4.lineTo(size.width * 0.5063274, size.height * 0.02474327);
+    path_4.lineTo(size.width * 0.9620950, size.height * 0.02474327);
+    path_4.lineTo(size.width * 0.9874640, size.height * 0.07798301);
+    path_4.lineTo(size.width * 0.9874640, size.height * 0.1990409);
+
+    Paint paint_4_stroke = Paint()
+      ..style = PaintingStyle.stroke
+      ..strokeWidth = 2;
+    paint_4_stroke.color = Color(0xffe7620c).withOpacity(1.0);
+    canvas.drawPath(path_4, paint_4_stroke);
+
+    Path path_5 = Path();
+    path_5.moveTo(size.width * 0.9773215, size.height * 0.7347917);
+    path_5.lineTo(size.width * 0.9646667, size.height * 0.7146183);
+    path_5.lineTo(size.width * 0.9646667, size.height * 0.5556115);
+    path_5.lineTo(size.width * 0.9730608, size.height * 0.5365154);
+    path_5.lineTo(size.width * 0.9730608, size.height * 0.4585151);
+    path_5.lineTo(size.width * 0.9645140, size.height * 0.4405310);
+    path_5.lineTo(size.width * 0.9645140, size.height * 0.2725235);
+    path_5.lineTo(size.width * 0.9773215, size.height * 0.2556515);
+
+    Paint paint_5_stroke = Paint()
+      ..style = PaintingStyle.stroke
+      ..strokeWidth = 2;
+    paint_5_stroke.color = Color(0xffe7620c).withOpacity(1.0);
+    canvas.drawPath(path_5, paint_5_stroke);
+
+    Paint paint_6_stroke = Paint()
+      ..style = PaintingStyle.stroke
+      ..strokeWidth = 2;
+    paint_6_stroke.color = Color(0xffe7620c).withOpacity(1.0);
+    canvas.drawRect(
+        Rect.fromLTWH(size.width * 0.9859108, size.height * 0.8001251,
+            size.width * 0.003539267, size.height * 0.006741846),
+        paint_6_stroke);
+
+    Paint paint_7_stroke = Paint()
+      ..style = PaintingStyle.stroke
+      ..strokeWidth = 2;
+    paint_7_stroke.color = Color(0xffe7620c).withOpacity(1.0);
+    canvas.drawRect(
+        Rect.fromLTWH(size.width * 0.9856307, size.height * 0.1990235,
+            size.width * 0.003539267, size.height * 0.006741846),
+        paint_7_stroke);
   }
 
   @override

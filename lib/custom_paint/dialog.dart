@@ -7,8 +7,8 @@ class CustomPaintDialog extends CustomPainter {
     var paint = Paint()
       ..color = Colors.blue
       ..style = PaintingStyle.stroke
-      ..maskFilter = const MaskFilter.blur(BlurStyle.solid, 10)
-      ..strokeWidth = 2;
+      ..maskFilter = const MaskFilter.blur(BlurStyle.solid, 5)
+      ..strokeWidth = 1;
 
     Path path_0 = Path();
     path_0.moveTo(size.width * 0.002608696, size.height * 0.1922733);
