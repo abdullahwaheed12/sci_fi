@@ -142,6 +142,256 @@ class DashBoardCustomPaint extends CustomPainter {
         Rect.fromLTWH(size.width * 0.9858934, size.height * 0.1982724,
             size.width * 0.003157439, size.height * 0.006456679),
         paintFill);
+
+    canvas.drawLine(Offset(size.width * 0.7534397, size.height * 0.1040223),
+        Offset(size.width * 0.7534397, size.height * 0.9413315), paintStroke);
+
+    canvas.drawLine(Offset(size.width * 0.7507915, size.height * 0.9371783),
+        Offset(size.width * 0.7507915, size.height * 0.1091353), paintStroke);
+
+    canvas.drawLine(Offset(size.width * 0.7409202, size.height * 0.9454847),
+        Offset(size.width * 0.2521962, size.height * 0.9454847), paintStroke);
+
+    canvas.drawLine(Offset(size.width * 0.2393288, size.height * 0.9454847),
+        Offset(size.width * 0.05990647, size.height * 0.9454847), paintStroke);
+
+    Path path_13 = Path();
+    path_13.moveTo(size.width * 0.9349075, size.height * 0.08564698);
+    path_13.lineTo(size.width * 0.1041446, size.height * 0.08564698);
+    path_13.lineTo(size.width * 0.06070431, size.height * 0.08564698);
+
+    canvas.drawPath(path_13, paintStroke);
+
+    canvas.drawLine(Offset(size.width * 0.1041446, size.height * 0.05032720),
+        Offset(size.width * 0.1041446, size.height * 0.08533287), paintStroke);
+
+    canvas.drawLine(Offset(size.width * 0.3169831, size.height * 0.05147893),
+        Offset(size.width * 0.3169831, size.height * 0.08564698), paintStroke);
+
+    canvas.drawLine(Offset(size.width * 0.8637633, size.height * 0.05079836),
+        Offset(size.width * 0.8637633, size.height * 0.08564698), paintStroke);
+
+    canvas.drawLine(Offset(size.width * 0.7402158, size.height * 0.1005148),
+        Offset(size.width * 0.2517888, size.height * 0.1005148), paintStroke);
+
+    canvas.drawLine(Offset(size.width * 0.06070431, size.height * 0.1334439),
+        Offset(size.width * 0.2409499, size.height * 0.1334439), paintStroke);
+
+    Path path_19 = Path();
+    path_19.moveTo(size.width * 0.2409499, size.height * 0.1005148);
+    path_19.lineTo(size.width * 0.2050808, size.height * 0.1005148);
+    path_19.lineTo(size.width * 0.1935374, size.height * 0.1334439);
+
+    canvas.drawPath(path_19, paintStroke);
+
+    Path path_20 = Path();
+    path_20.moveTo(size.width * 0.7288167, size.height * 0.2564872);
+    path_20.lineTo(size.width * 0.7288167, size.height * 0.1504406);
+    path_20.lineTo(size.width * 0.7356748, size.height * 0.1372481);
+    path_20.lineTo(size.width * 0.7356748, size.height * 0.1136376);
+    path_20.lineTo(size.width * 0.7228159, size.height * 0.1388186);
+    path_20.lineTo(size.width * 0.6522828, size.height * 0.1388186);
+
+    canvas.drawPath(path_20, paintStroke);
+
+    Path path_21 = Path();
+    path_21.moveTo(size.width * 0.3384062, size.height * 0.1385568);
+    path_21.lineTo(size.width * 0.2699865, size.height * 0.1385568);
+    path_21.lineTo(size.width * 0.2567711, size.height * 0.1148940);
+    path_21.lineTo(size.width * 0.2567711, size.height * 0.1385568);
+    path_21.lineTo(size.width * 0.2628313, size.height * 0.1516622);
+    path_21.lineTo(size.width * 0.2628313, size.height * 0.2562080);
+
+    canvas.drawPath(path_21, paintStroke);
+
+    Path path_22 = Path();
+    path_22.moveTo(size.width * 0.3392210, size.height * 0.9067272);
+    path_22.lineTo(size.width * 0.2699271, size.height * 0.9067272);
+    path_22.lineTo(size.width * 0.2566947, size.height * 0.9315767);
+    path_22.lineTo(size.width * 0.2566947, size.height * 0.9067272);
+    path_22.lineTo(size.width * 0.2628738, size.height * 0.8950179);
+    path_22.lineTo(size.width * 0.2628738, size.height * 0.7885525);
+
+    canvas.drawPath(path_22, paintStroke);
+
+    Path path_23 = Path();
+    path_23.moveTo(size.width * 0.7287318, size.height * 0.7889713);
+    path_23.lineTo(size.width * 0.7287318, size.height * 0.8947038);
+    path_23.lineTo(size.width * 0.7354372, size.height * 0.9078440);
+    path_23.lineTo(size.width * 0.7354372, size.height * 0.9322921);
+    path_23.lineTo(size.width * 0.7228414, size.height * 0.9066399);
+    path_23.lineTo(size.width * 0.6520536, size.height * 0.9066399);
+
+    canvas.drawPath(path_23, paintStroke);
+
+    canvas.drawLine(Offset(size.width * 0.9366136, size.height * 0.1244918),
+        Offset(size.width * 0.7599667, size.height * 0.1244918), paintStroke);
+
+    Path path_25 = Path();
+    path_25.moveTo(size.width * 0.9291528, size.height * 0.1344036);
+    path_25.lineTo(size.width * 0.9291528, size.height * 0.5679086);
+    path_25.lineTo(size.width * 0.9213781, size.height * 0.5858128);
+    path_25.lineTo(size.width * 0.7680555, size.height * 0.5858128);
+    path_25.lineTo(size.width * 0.7680555, size.height * 0.1344036);
+    path_25.lineTo(size.width * 0.9291528, size.height * 0.1344036);
+    path_25.close();
+
+    canvas.drawPath(path_25, paintStroke);
+
+    Path path_26 = Path();
+    path_26.moveTo(size.width * 0.7684460, size.height * 0.3150336);
+    path_26.lineTo(size.width * 0.8077103, size.height * 0.3150336);
+    path_26.lineTo(size.width * 0.8207644, size.height * 0.2875316);
+    path_26.lineTo(size.width * 0.8764355, size.height * 0.2875316);
+    path_26.lineTo(size.width * 0.8902790, size.height * 0.3150336);
+    path_26.lineTo(size.width * 0.9291528, size.height * 0.3150336);
+
+    canvas.drawPath(path_26, paintStroke);
+
+    canvas.drawLine(Offset(size.width * 0.9356799, size.height * 0.6043626),
+        Offset(size.width * 0.7609004, size.height * 0.6043626), paintStroke);
+
+    canvas.drawLine(Offset(size.width * 0.2391930, size.height * 0.2800977),
+        Offset(size.width * 0.05959242, size.height * 0.2800977), paintStroke);
+
+    canvas.drawLine(Offset(size.width * 0.2409499, size.height * 0.4400314),
+        Offset(size.width * 0.06070431, size.height * 0.4400314), paintStroke);
+
+    canvas.drawLine(Offset(size.width * 0.2409499, size.height * 0.5885350),
+        Offset(size.width * 0.06070431, size.height * 0.5885350), paintStroke);
+
+    canvas.drawLine(Offset(size.width * 0.2409499, size.height * 0.7066574),
+        Offset(size.width * 0.06070431, size.height * 0.7066574), paintStroke);
+
+    canvas.drawRect(
+        Rect.fromLTWH(size.width * 0.05789487, size.height * 0.7066574,
+            size.width * 0.003157439, size.height * 0.006456679),
+        paintFill);
+
+    canvas.drawRect(
+        Rect.fromLTWH(size.width * 0.2377925, size.height * 0.7066574,
+            size.width * 0.003157439, size.height * 0.006456679),
+        paintFill);
+
+    canvas.drawRect(
+        Rect.fromLTWH(size.width * 0.2377925, size.height * 0.5885350,
+            size.width * 0.003157439, size.height * 0.006456679),
+        paintFill);
+
+    canvas.drawRect(
+        Rect.fromLTWH(size.width * 0.05754687, size.height * 0.5885350,
+            size.width * 0.003157439, size.height * 0.006456679),
+        paintFill);
+
+    canvas.drawRect(
+        Rect.fromLTWH(size.width * 0.2376737, size.height * 0.4400314,
+            size.width * 0.003157439, size.height * 0.006456679),
+        paintFill);
+
+    canvas.drawRect(
+        Rect.fromLTWH(size.width * 0.05754687, size.height * 0.4400314,
+            size.width * 0.003157439, size.height * 0.006456679),
+        paintFill);
+
+    canvas.drawRect(
+        Rect.fromLTWH(size.width * 0.05739409, size.height * 0.2800977,
+            size.width * 0.003157439, size.height * 0.006456679),
+        paintFill);
+
+    canvas.drawRect(
+        Rect.fromLTWH(size.width * 0.05754687, size.height * 0.1269697,
+            size.width * 0.003157439, size.height * 0.006456679),
+        paintFill);
+
+    canvas.drawRect(
+        Rect.fromLTWH(size.width * 0.1041446, size.height * 0.04709886,
+            size.width * 0.003157439, size.height * 0.006456679),
+        paintFill);
+
+    canvas.drawRect(
+        Rect.fromLTWH(size.width * 0.05912559, size.height * 0.07917285,
+            size.width * 0.003157439, size.height * 0.006456679),
+        paintFill);
+
+    canvas.drawRect(
+        Rect.fromLTWH(size.width * 0.2496414, size.height * 0.1005148,
+            size.width * 0.003157439, size.height * 0.006456679),
+        paintFill);
+
+    canvas.drawRect(
+        Rect.fromLTWH(size.width * 0.3138257, size.height * 0.04668005,
+            size.width * 0.003157439, size.height * 0.006456679),
+        paintFill);
+
+    canvas.drawRect(
+        Rect.fromLTWH(size.width * 0.6509078, size.height * 0.1323619,
+            size.width * 0.003157439, size.height * 0.006456679),
+        paintFill);
+
+    canvas.drawRect(
+        Rect.fromLTWH(size.width * 0.3377356, size.height * 0.1320827,
+            size.width * 0.003157439, size.height * 0.006456679),
+        paintFill);
+
+    canvas.drawRect(
+        Rect.fromLTWH(size.width * 0.7395283, size.height * 0.1005148,
+            size.width * 0.003157439, size.height * 0.006456679),
+        paintFill);
+
+    canvas.drawRect(
+        Rect.fromLTWH(size.width * 0.8637633, size.height * 0.04708141,
+            size.width * 0.003157439, size.height * 0.006456679),
+        paintFill);
+
+    canvas.drawRect(
+        Rect.fromLTWH(size.width * 0.2381235, size.height * 0.2800977,
+            size.width * 0.003157439, size.height * 0.006456679),
+        paintFill);
+
+    canvas.drawRect(
+        Rect.fromLTWH(size.width * 0.9339229, size.height * 0.07917285,
+            size.width * 0.003157439, size.height * 0.006456679),
+        paintFill);
+
+    canvas.drawRect(
+        Rect.fromLTWH(size.width * 0.9356799, size.height * 0.1244918,
+            size.width * 0.003157439, size.height * 0.006456679),
+        paintFill);
+
+    canvas.drawRect(
+        Rect.fromLTWH(size.width * 0.9350943, size.height * 0.6043626,
+            size.width * 0.003157439, size.height * 0.006456679),
+        paintFill);
+
+    canvas.drawRect(
+        Rect.fromLTWH(size.width * 0.7386370, size.height * 0.9390280,
+            size.width * 0.003157439, size.height * 0.006456679),
+        paintFill);
+
+    canvas.drawRect(
+        Rect.fromLTWH(size.width * 0.6502627, size.height * 0.9066748,
+            size.width * 0.003157439, size.height * 0.006456679),
+        paintFill);
+
+    canvas.drawRect(
+        Rect.fromLTWH(size.width * 0.3380327, size.height * 0.9067097,
+            size.width * 0.003157439, size.height * 0.006456679),
+        paintFill);
+
+    canvas.drawRect(
+        Rect.fromLTWH(size.width * 0.2496669, size.height * 0.9390280,
+            size.width * 0.003157439, size.height * 0.006456679),
+        paintFill);
+
+    canvas.drawRect(
+        Rect.fromLTWH(size.width * 0.2379368, size.height * 0.9390280,
+            size.width * 0.003157439, size.height * 0.006456679),
+        paintFill);
+
+    canvas.drawRect(
+        Rect.fromLTWH(size.width * 0.05751292, size.height * 0.9390280,
+            size.width * 0.003157439, size.height * 0.006456679),
+        paintFill);
   }
 
   @override
